@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7985545000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "ada",
+        "description": "",
+        "id": "ad;ada",
+        "after": [
+          {
+            "result": {
+              "duration": 819692600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 630650400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "ir a la pagina",
+            "match": {
+              "location": "xpageTest.irALaPagina()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 90000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "ver titulo",
+            "match": {
+              "location": "xpageTest.verTitulo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 66300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "verificar que estamos en la pagina",
+            "match": {
+              "location": "xpageTest.verificarQueEstamosEnLaPagina()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "ad",
+    "description": "",
+    "id": "ad",
+    "keyword": "Feature",
+    "uri": "x.feature"
+  }
+]
