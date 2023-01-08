@@ -11,12 +11,12 @@ public class Hooks {
     public void setUp(){
         System.setProperty("webdriver.chrome.driver","src\\main\\resources\\drivers\\driver.exe");
         driver=new ChromeDriver();
-        driver.get("https://imalittletester.com/my-conference-talks/");
+        driver.get("https://www.saucedemo.com/");
         driver.manage().window().maximize();
     }
     @After
     public void tearDown(){
-        driver.quit();
+        //driver.quit();
     }
 
     public static ChromeDriver getDriver(){

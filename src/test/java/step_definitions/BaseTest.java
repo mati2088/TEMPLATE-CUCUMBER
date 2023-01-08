@@ -1,6 +1,10 @@
 package step_definitions;
 
 import org.openqa.selenium.chrome.ChromeDriver;
+import pom.CartPage;
+import pom.CheckoutPage;
+import pom.HomePage;
+import pom.LoginPage;
 
 public class BaseTest {
     protected ChromeDriver driver= Hooks.getDriver();
@@ -13,6 +17,11 @@ public class BaseTest {
          protected HomePage homePage =new HomePage(driver);
          protected ComicsPage comicsPage=new ComicsPage(driver);
      */
+
+    protected LoginPage loginPage=new LoginPage(driver);
+    protected HomePage homePage=new HomePage(driver);
+    protected CartPage cartPage=new CartPage(driver);
+    protected CheckoutPage checkoutPage =new CheckoutPage(driver);
 
 
 
